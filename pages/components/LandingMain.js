@@ -1,6 +1,7 @@
 import React from "react";
 
 const LandingMain = () => {
+
   return (
     <>
       <div className=" bg-skin-main lg:bg-landing-bg bg-no-repeat lg:bg-center bg-cover md:bg-landing-right-bg  ">
@@ -32,7 +33,7 @@ const LandingMain = () => {
               </svg>
               Download for Windows
             </button>
-            <button className="font-Helvetica bg-slate-800 text-white px-8 py-3 rounded-full text-lg flex items-center hover:shadow-xl hover:text-skin-main transition-all lg:mx-5">
+            <button className="font-Helvetica bg-slate-800 text-white px-8 py-3 rounded-full text-lg flex items-center hover:shadow-xl transition-all lg:mx-5">
               Open Discord in Your Browser
             </button>
           </div>

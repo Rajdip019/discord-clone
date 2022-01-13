@@ -9,6 +9,8 @@ module.exports = {
         'landing-bg': "url('/assets/homepagemain.svg')",
         'landing-left-bg': "url('/assets/homepage1.svg')",
         'landing-right-bg': "url('/assets/homepage2.svg')",
+        'login': "url('/assets/login.svg')",
+        'checked': "url('/assets/checked.svg')"
         
       }),
 
@@ -33,5 +35,5 @@ module.exports = {
     extend: {},
   },
 
-  plugins: [],
+  plugins: [ require('tailwind-scrollbar')],
 }
