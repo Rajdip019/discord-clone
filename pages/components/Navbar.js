@@ -9,6 +9,7 @@ import {
   DrawerCloseButton,
   useDisclosure,
 } from "@chakra-ui/react";
+import Link from "next/link"
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -59,9 +60,12 @@ const Navbar = () => {
         </div>
         <div className=" flex flex-row">
         <div >
+        <Link href="/login">
           <button className="bg-white px-4 py-2 rounded-full text-sm hover:shadow-xl transition-all hover:text-skin-main">
-            Open Discord
+            Login
           </button>
+
+        </Link>
         </div>
         <div className="md:hidden ml-3">
           <button ref={btnRef} onClick={onOpen} className="text-white">
