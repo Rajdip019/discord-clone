@@ -6,7 +6,7 @@ import {
     MenuItem,
   } from "@chakra-ui/react";
 
-const NameMenu = ({ }) => {
+const NameMenu = ({ activeServer}) => {
     return (
       <>
       {activeServer && (
