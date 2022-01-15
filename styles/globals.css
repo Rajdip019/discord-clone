@@ -22,3 +22,9 @@
 
 
 }
+
+@layer components{
+  .dashboardNavIcon {
+    @apply cursor-pointer text-[#8E928A] ml-8 font-semibold active:text-white focus:text-white hover:bg-gray-700 py-1 px-2 rounded active:bg-gray-700 focus:bg-gray-700 transition-all peer-checked:bg-gray-700 peer-checked:text-white;
+  }
+}
