@@ -6,8 +6,11 @@ import {
     MenuItem,
   } from "@chakra-ui/react";
 
-const NameMenu = ({activeServer}) => {
+const NameMenu = ({ activeServer}) => {
     return (
+      <>
+      {activeServer && (
+
         <Menu autoSelect={false}>
           <MenuButton className="ml-5">
             <div className="flex py-[11.5px] hover:bg-[#383b41] cursor-pointer transition-all">
@@ -168,6 +171,9 @@ const NameMenu = ({activeServer}) => {
             </MenuItem>
           </MenuList>
         </Menu>
+
+      )}
+      </>
     )
 }
 

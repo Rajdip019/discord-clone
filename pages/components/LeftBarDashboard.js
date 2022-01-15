@@ -6,7 +6,7 @@ import Link from "next/link";
 const LeftBarDashboard = () => {
   return (
     <div>
-      <div className="h-screen w-[75px] bg-[#212224]">
+      <div className="h-screen w-[75px] bg-[#212224] relative z-30">
         <div className="flex items-center">
           <div className="w-2 bg-white h-10 rounded-r-lg"></div>
           <Link href="/dashboard">

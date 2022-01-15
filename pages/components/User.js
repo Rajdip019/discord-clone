@@ -8,7 +8,7 @@ const User = () => {
   };
 
   return (
-    <div className="bg-[#292A2E] absolute bottom-0 p-2 flex w-[240px] items-center justify-between ">
+    <div className="bg-[#292A2E] absolute bottom-0 p-2 flex w-[240px] items-center justify-between">
       <div className="flex items-center">
         <img
           src="/Profile Picture.png"
