@@ -7,7 +7,7 @@ import User from "./User";
 const FriendBardDashboard = () => {
   return (
     <>
-      <div className="w-[240px] bg-[#2F3136] h-screen relative -z-10 ">
+      <div className="w-[240px] bg-[#2F3136] h-screen ">
         <div className="flex my-[11.5px] ">
           <input type="text" className="mx-auto w-11/12 text-xs px-2 py-1 rounded-sm bg-[#212224]" placeholder="Find or Start a conversation" />
         </div>
@@ -40,7 +40,9 @@ const FriendBardDashboard = () => {
         />
             )
         })}
+        <div className=" absolute z-50 bottom-0">
         <User />
+        </div>
       </div>
     </>
   );
